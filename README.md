@@ -4,7 +4,7 @@
 
 ### Installation layer php
 
-Installation of the layer *php* for mfext, as root user :
+Installation of the layer **php** for mfext, as root user :
 
 ```
 git clone -b release_1.0 https://github.com/metwork-framework/mfextaddon_php.git
@@ -35,3 +35,6 @@ make develop
 ## URL
 
 http://localhost:18868/mfservplugin_php/index.php
+
+Enjoy using PHP with MetWork !!!
+
