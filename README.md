@@ -1,8 +1,8 @@
 # mfservplugin_php
 
-# Prerequisite
+## Prerequisite
 
-## Installation layer php
+### Installation layer php
 
 Installation of the layer *php* for mfext, as root user :
 
@@ -18,12 +18,12 @@ Verification :
 ```
 su - mfserv
 layers
-#- (*) php@mfext [/opt/metwork-mfext-1.0/opt/php]
+# - (*) php@mfext [/opt/metwork-mfext-1.0/opt/php]
 php --version
 composer --version
 ```
 
-# Installation plugin
+## Installation plugin
 
 ```
 su - mfserv
@@ -32,6 +32,6 @@ cd mfservplugin_php
 make develop
 ```
 
-# URL
+## URL
 
 http://localhost:18868/mfservplugin_php/index.php
