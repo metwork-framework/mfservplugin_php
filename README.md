@@ -1,6 +1,9 @@
 # mfservplugin_php
 
-## Prerequisite
+## Prerequisites
+
+- **mfserv**
+- **mfext** (with metwork-mfext-layer-python3_devtools)
 
 ### Installation layer php
 
@@ -19,6 +22,7 @@ Verification :
 su - mfserv
 layers
 # - (*) php@mfext [/opt/metwork-mfext-1.0/opt/php]
+# if not loaded, execute: layer_load php@mfext
 php --version
 composer --version
 ```
