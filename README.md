@@ -12,9 +12,10 @@
 Installation of the layer **php** for mfext, as root user :
 
 ```
-git clone -b release_1.0 https://github.com/metwork-framework/mfextaddon_php.git
+git clone -b integration https://github.com/metwork-framework/mfextaddon_php.git
 cd mfextaddon_php
-./bootstrap.sh /opt/metwork-mfext-1.0/
+# change below the mfext version according to your metwork version
+./bootstrap.sh /opt/metwork-mfext-2.0/
 make
 ```
 
@@ -23,7 +24,7 @@ Verification :
 ```
 su - mfserv
 layers
-# - (*) php@mfext [/opt/metwork-mfext-1.0/opt/php]
+# - (*) php@mfext [/opt/metwork-mfext-2.0/opt/php]
 # if not loaded, execute: layer_load php@mfext
 php --version
 composer --version
@@ -43,4 +44,3 @@ make develop
 http://localhost:18868/mfservplugin_php/index.php
 
 Enjoy using PHP with MetWork !!!
-
