@@ -3,28 +3,22 @@
 ## Prerequisites
 
 - **mfserv**
-- **mfext** (with metwork-mfext-layer-python3_devtools)
+
+- **mfext** 
+with layers:
+  - metwork-mfext-layer-python3_devtools
+  - **metwork-mfext-layer-php**
 
 ## Installations
 
-### Installation layer php
-
-Installation of the layer **php** for mfext, as root user :
-
-```
-git clone -b integration https://github.com/metwork-framework/mfextaddon_php.git
-cd mfextaddon_php
-# change below the mfext version according to your metwork version
-./bootstrap.sh /opt/metwork-mfext-2.0/
-make
-```
+### Layer php
 
 Verification :
 
 ```
 su - mfserv
 layers
-# - (*) php@mfext [/opt/metwork-mfext-2.0/opt/php]
+# - (*) php@mfext [/opt/metwork-mfext-2.1/opt/php]
 # if not loaded, execute: layer_load php@mfext
 php --version
 composer --version
