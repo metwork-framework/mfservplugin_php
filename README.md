@@ -24,7 +24,7 @@ php --version
 composer --version
 ```
 
-## Installation plugin
+### Installation plugin
 
 ```
 su - mfserv
